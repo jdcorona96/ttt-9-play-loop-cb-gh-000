@@ -39,11 +39,11 @@ end
 
 def play(board)
 
-counter = 0
-player1_playing = true
+  counter = 0
+  player1_playing = true
 
-while (counter < 9) do
+  while (counter < 9) do
 
-  turn(board)
-end
+    turn(board)
+  end
 end
