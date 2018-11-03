@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 
-play(board)
+def play(board)
 
 counter = 0
 player1_playing = true
@@ -45,4 +45,5 @@ player1_playing = true
 while (counter < 9) do
 
   turn(board)
+end
 end
